@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -8,132 +9,170 @@
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <title>Test Framework</title>
-    <style>
-        .card-footer{
-            background-color: white;
-            border-top: none;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
+    <title>Framework</title>
+
+
 </head>
-<body style="background-color: #cce5ff">
-<div class="container">
 
-    <div class="row row-cols-1 row-cols-3 g-4">
-        <div class="col-sm-3 p-3">
-            <div class="card text-center h-100">
-                <img src="Podcast-Website-Design-Background-Image.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Your EMP Back OfficeTour</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                    <button type="button" class="btn btn-outline-dark" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
-                        Tooltip on the right
+<body>
+    <div class="row">
+        <div class="col-2">
+            <div class="wrapper p-5">
+                <nav id="sidebar">
+                    <ul class="list-unstyled components">
+                        <li class="active">
+                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                            <ul class="collapse list-unstyled" id="homeSubmenu">
+                                <li>
+                                    <a href="#">Home 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Home 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Home 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                            <ul class="collapse list-unstyled" id="pageSubmenu">
+                                <li>
+                                    <a href="#">Page 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Page 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Page 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="col-lg-10 col-md-5 col-sm-2.5">
+            <div class="card-deck p-3 justify-content-center">
+                <div class="card">
+                    <img class="card-img-top" src="sun.jpg" alt="Card image cap" height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                        <s<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+                        Tooltip on right
                     </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="moon.jpg" alt="Card image cap" height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+                            Tooltip on right
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="city.jpg" alt="Card image cap" height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+                            Tooltip on right
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="beach.jpg" alt="Card image cap" height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+                            Tooltip on right
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-sm-3 p-3" >
-            <div class="card text-center h-100">
-                <img src="Podcast-Website-Design-Background-Image.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">An Overview</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
-                    <button type="button" class="btn btn-outline-dark" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
-                        Tooltip on the right
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 p-3">
-            <div class="card text-center h-100">
-                <img src="Podcast-Website-Design-Background-Image.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">The EMP Affiliate</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                    <button type="button" class="btn btn-outline-dark" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
-                        Tooltip on the right
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 p-3">
-            <div class="card text-center h-100">
-                <img src="Podcast-Website-Design-Background-Image.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">EMP Coaching</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                    <button type="button" class="btn btn-outline-dark" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
-                        Tooltip on the right
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 p-3">
-            <div class="card text-center h-100">
-                <img src="Podcast-Website-Design-Background-Image.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">People Make Money</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                    <button type="button" class="btn btn-outline-dark" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
-                        Tooltip on the right
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 p-3" >
-            <div class="card text-center h-100">
-                <img src="Podcast-Website-Design-Background-Image.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Help & Support</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
-                    <button type="button" class="btn btn-outline-dark" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
-                        Tooltip on the right
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 p-3">
-            <div class="card text-center h-100">
-                <img src="Podcast-Website-Design-Background-Image.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Getting Started</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                    <button type="button" class="btn btn-outline-dark" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
-                        Tooltip on the right
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3 p-3">
-            <div class="card text-center h-100">
-                <img src="Podcast-Website-Design-Background-Image.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">The Fastest Way To Yr First Sale</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                    <button type="button" class="btn btn-outline-dark" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
-                        Tooltip on the right
-                    </button>
-                </div>
-            </div>
-        </div>
-
     </div>
+    <div class="row">
+        <div class="col-2">
+
+        </div>
+        <div class="col-lg-10 col-md-5 col-sm-2.5">
+            <div class="card-deck p-3">
+                <div class="card">
+                    <img class="card-img-top" src="sun.jpg" alt="Card image cap" height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+                            Tooltip on right
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="moon.jpg" alt="Card image cap" height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+                            Tooltip on right
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="city.jpg" alt="Card image cap" height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+                            Tooltip on right
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="beach.jpg" alt="Card image cap" height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+                            Tooltip on right
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
